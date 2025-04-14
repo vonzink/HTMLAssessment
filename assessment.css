@@ -5,20 +5,47 @@ body{
 	background-color: whitesmoke;
 }
 .subjectHeader{
-	color: blue;
+	color: darkgrey;
 	font: sans-serif;
 }
 
 #scoreBoard{
+	font-weight: bold;
+	border: 2px;
+	color: black;
+	background-color: white;
+	border: 1px solid black;
+	text-align: center;
 
 }
+#scoreBoard th {
+	background-color: yellowgreen;
+
+}
+table, tr, th, td {
+	border: 1px solid black;
+	padding: 10px;
+}
+
 #teamRoster{
-
+	list-style-type: square;
 }
-.hyperlink{
 
+.hyperLink:hover {
+	color: green;
+	text-decoration: none;
 }
 #checkbox-grid{
 
 }
+blockquote {
+	color: white;
+	background-color: black;
 
+}
+ul > li:first-child{
+		background-image:src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg";
+}
+ul > li:last-child{
+		background-image:src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg";
+}
