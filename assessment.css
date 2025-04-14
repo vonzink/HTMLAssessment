@@ -20,8 +20,12 @@ body{
 }
 #scoreBoard th {
 	background-color: yellowgreen;
+}
+#scoreBoard tr:first-child {
+	background-color: yellow;
 
 }
+
 table, tr, th, td {
 	border: 1px solid black;
 	padding: 10px;
@@ -30,10 +34,14 @@ table, tr, th, td {
 #teamRoster{
 	list-style-type: square;
 }
+.hyperlink
+
+
 
 .hyperLink:hover {
 	color: green;
 	text-decoration: none;
+
 }
 #checkbox-grid{
 
@@ -44,8 +52,26 @@ blockquote {
 
 }
 ul > li:first-child{
-		background-image:src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg";
+		background-image: url("https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg");
+		background-repeat: no-repeat;
+
+
 }
-ul > li:last-child{
-		background-image:src="https://upload.wikimedia.org/wikipedia/en/4/44/Denver_Broncos_logo.svg";
+ul li:first-child{
+  display: none;
+}
+ul > li:last-child img{
+		background-image: url("https://upload.wikimedia.org/wikipedia/commons/5/5c/Chicago_Bears_logo.svg");
+		background-repeat: no-repeat;
+		
+}
+ul li:last-child img {
+  display: none;
+}
+form  ul{
+	list-style: none;
+}
+
+ol li:first-child{
+	font-weight: bold;
 }
